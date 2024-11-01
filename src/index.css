@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  height: 100%;
+  font-family: Arial,sans-serif;
+
+}
+
+.background{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('./images/9545e9b86afd1e9c431704007c1c0714.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.content{
+  text-align: center;
+  padding: 20px 40px;
+  border-radius: 10px;
+  width: 450px;
+}
+
+h1 {
+  
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+ 
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Start button styling */
+.start-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: lightblue; /* Light blue background */
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.start-button:hover {
+  background-color: #87ceeb; /* Darker blue on hover */
+}
+
+
+.main-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+p{
+  text-align: center;
+}
+
+.selected{
+  background-color: green;
+}
+
+.question-container{
+  
+}
+
+.question-container p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+}
+
+.answers-container{
+  display: flex;
+  gap: 5px;
+}
+
+.answers-container button{
+  width: 189px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid rgba(91, 193, 237, 1);
+  background-color: white;
+  font-family: 'monsterrat';
+}
+
+.buttons-container{
+  padding-top: 30px;
+  text-align: center;
+}
+
+.progress-bar{
+ position: fixed;
+  top: 30%;
+  left: 85%;
+  
+}
+
+.back{
+  text-align: center;
+  text-decoration: underline;
+  background-color: white;
+  border: none;
+  width: 35px;
+  height: 19px;
+  color: rgba(103, 116, 135, 1);
+}
+
+.next{
+  width: 189px;
+  background-color: rgba(195, 237, 255, 1);
+  border-radius: 10px;
+  border: none;
+  height: 48px;
+  
+}
+
+.next i{
+  padding-left: 10px;
+}
+
+.selected{
+  color: #87ceeb;
+}
+
